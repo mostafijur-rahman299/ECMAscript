@@ -152,7 +152,6 @@ class Student {
 	}
 }
 
-console.log("hello world") 
 
 ////////////////////////////////////////////
 ////////////// inheritance /////////////////
@@ -178,5 +177,7 @@ export class Teacher extends Student{
 // this example is in the head-teacher.js file
 
 
+
+console.log("hello earth")
 
 

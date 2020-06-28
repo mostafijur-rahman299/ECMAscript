@@ -3,8 +3,6 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   entry: [
-    './src/head.js',
-  	'./src/head-teacher.js',
     './src/main.js'
   ],
   output: {
@@ -19,5 +17,9 @@ module.exports = {
         use: 'babel-loader'
       }
     ]
+  },
+  devServer: {
+    port: 1234,
+    contentBase: path.join(__dirname, "dist")
   }
 }
